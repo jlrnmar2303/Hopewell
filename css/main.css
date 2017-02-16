@@ -1,0 +1,119 @@
+/********************************
+GENERAL
+********************************/
+
+body{
+font-family: 'sans-serif', sasns-serif;
+
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+
+}
+
+a{
+  text-decoration: none;
+
+}
+
+
+
+
+/*******************************
+HEADER
+*******************************/
+
+
+
+
+.bigpic {
+ width: 100%;
+ z-index: 0;
+}
+
+
+
+ /******************************
+ JUMBOTRON wouldllike pic
+ ******************************/
+
+.jumbotron {
+
+      height: 211.984px;
+      background-image:
+}
+
+
+
+
+
+
+/********************************
+NAVIGATION
+*********************************/
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+  background-color: black;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+ }
+
+nav li {
+display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+  color: #8A2BE2;
+
+}
+
+
+/*************
+all of this is still a work in progress
+I still need the nav bar to touch the pic
+I would like a color strip across the bottom of nav
+I need columns with paragraphs and pics
+maps
+directions
+voulenteer
+schedule
+news letter
+how to get involved
+groups or classes to join
+admin-staff
+
+***************/
+
+body {
+  background-color: #8A2BE2;
+  margin: 0;
+}
+
+
+
+
+h2 {
+color: #8A2BE2;
+background-color: black;
+margin: 0 0 1em 0;
+}
+
+
+.wrap {
+  background-color: darkgray;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
