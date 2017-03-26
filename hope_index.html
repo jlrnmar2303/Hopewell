@@ -1,174 +1,155 @@
 <!--My first Project. Hopewell Presbyterian Church. This will display
- information on Hopewell Presbyterian Church-->
+ information about Hopewell Presbyterian Church-->
+
+
+
+
+
+ <!--fix face book wrap and add correct links-->
+ <!--turn column list with breaks to tables?-->
+<!--commit and check for error-->
+<!--do i need the info down there?-->
+
 <!DOCTYPE html>
 <html lang="en">
 
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hopewell website">
-    <meta name="author" content="Jennifer Riney/Code Louisville">
-    <title>HopeWell Presbyterian Church</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Hopewell website">
+      <meta name="author" content="Jennifer Riney/Code Louisville">
+      <title>HopeWell Presbyterian Church</title>
 
-    <!--                  Bootstrap                                        -->
+      <!--                  Bootstrap                                        -->
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 
-    <!--                   style sheet links                                -->
+      <!--                   style sheet links                                -->
 
-  <!--  <link rel="stylesheet" type="text/css" href="./css/bootstrap-theme.min.css"/>-->
-    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
-
-
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-      </head>
-      <body>
-
-<!------------------not needed right now---------------------
-            <div class="container-fluid">
-              <header class="page-header">
-          <h2>Hopewell Presbyterian Church</h2>
-        </div>
-        </header>
---------------------------------------------------------------->
+    <!--  <link rel="stylesheet" type="text/css" href="./css/bootstrap-theme.min.css"/>-->
+      <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 
 
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+  <body>
+<!--                      JUMBOTRON                              -->
 
-<!------------------------JUMBOTRON--------------------------------->
-
-  <div class="jumbotron jumbotron-fluid">
-    <div class="img-responsive">
-      <img class="jumbotron-hope" src="hope_img/hopejumbo7.png" alt="hopewell church">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="img-responsive">
+        <img class="jumbotron-hope" src="hope_img/hopejumbo7.png" alt="hopewell church">
+      </div>
     </div>
-  </div>
 
-<!------------------------- END JUMBOTRON---------------------------->
-
-
-
-<!--carousel---------------------------------------------
-              <div id="myCarousel" class="carousel slide">
-                <div class="container">
-                  <div class="carousel-inner">
-                    <div class="img-responsive">
-                      <img class="hopeimg" src="hope_img/Jumbotron-One.jpg" alt="hopewell church">
-                    </div>
-                  </div>
-                </div>
-              </div>
---END CAROUSEL------------------------------------------->
-
-<!---navbar---------------------------------------------------->
-<div>
-
-
-    <ul class="nav nav-justified">
-      <li role="presentation" class="active"><a href="#">Home</a></li>
-      <li role="presentation"><a href="#">Contact Us</a></li>
-    </ul>
-  </div>
-  <!--navbar end-------------------------------------------->
-
-
-              <!--  may add a pic-->
-
-
-<div class="fluid container">
-
-        <div class="row">
-          <div class="col-sm-4">
-            <h2>Join us for Worship</h2>
+    <!--will use nav when I add second page-->
+    <!--
+    <div class="fluid container">
+      <div>
+        <ul class="nav nav-pills navbar-right">
+          <li role="presentation" class="active"><a href="hope_index.html">Home</a></li>
+          <li role="presentation"><a href="history.html">History</a></li>
+        </ul>
+      </div>
+    </div>
+  -->
+ <!--grid layout-->
+<!--first row   3 columns   schedule,announcments,youth group info -->
+    <div class="fluid container">
+      <div class="row">
+        <div  id="joinus" class="col-sm-4">
+          <h2>Join us for Worship</h2>
+            <p>Rather you are a regular member or just thinking of checking Hopewell out please
+              join us on Sunday mornings for worship!</p>
+              <br>
             <p>
-              Rather you are a regular member or just thinking of checking Hopewell out please
-              join us on Sunday mornings for worship!
-      </p><br>
-      <p>
-
-
               <h4>Sunday School</h4>
-              9:30am-10:30am
+                9:30am-10:30am
             </p>
             <p>
-            <h4>Worship</h4>
-              11:00am-12:00pm
-
+              <h4>Worship</h4>
+                11:00am-12:00pm
             </p>
-
-            </div>
-
-          <div class="col-sm-4">
-            <h2>Announcments</h2>
+    </div>
+    <div id="annoucments" class="col-sm-4">
+       <h2>Announcments</h2>
+         <p>
             Pot luck this Sunday<br><br>
             Helpers needed for egg hunt<br><br>
             Helpers needed for clean up crew<br><br>
             We are collecting for the Dare to Care food drive<br><br>
             T-shirt orders due Friday 3/31<br><br>
             Please see Betty to arrange transportation for worship<br><br>
-
-
-           </div>
-
-            <div class="col-sm-4">
-              <h2>Youth group needs help!</h2>
-            <p>Helping the youth group go to camp is easy!
+         </p>
+     </div>
+     <div id="youth" class="col-sm-4">
+        <h2>Youth group needs help!</h2>
+           <p>Helping the youth group go to camp is easy!
             The Hopewell youth group will be hosting a yard sale-craft bazar-bake sale to raise money for camp.
             If you have anything that you would like to donate for the sale, please bring it to church or we can arrange
             for pick up if needed. In addition to yardsale items, we are collecting crafts and bake sale items.
             The sale will be held in the church and advertised through out the community and on social media.
             If you have any suggestions to help improve our event or any questions please feel free to contact the youth committee.
+           </p>
+         </div>
+       </div>
+     </div>
+   </div>
 
+<!--second row -2columns-contains join-form and welcome image -->
 
-            </p>
-
-
-
-
+   <div class="fluid container">
+     <div class="row">
+        <div class="col-sm-6">
+          <form id="form" class="join-form">
+              <h1>Join our mailing list</h1>
+              <div class="form-group">
+                <label for="name">Name:</label>
+                  <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+              </div>
+              <div class="form-group">
+                  <label for="e-mail">E-mail:</label>
+                    <input type="text" class="form-control" name="e-mail" id="email" placeholder="Email">
+              </div>
+<!--button with the help of jquery, should submitform and hide it then show the hidden message of "thank you"-->
+              <button id="button" type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Join Now</button>
+          </form>
+              <div id="thankyou"><p class="ty-p">THANK YOU!  </p></div>
           </div>
+<!--welcome image-->
+          <div class="col-sm-6">
+            <img class="welcome center-block" src="hope_img/welcome.jpg" alt="welcome">
+          </div>
+
+
+
         </div>
       </div>
-    </div>
+
+<!-- footer -->
+<footer>
+
+<p>© 2017 Jennifer Riney.</p>
+</footer>
 
 
 
-      <!-------------------------------form---------------------------->
-
-    <div class="form">
-
-  
-      <div class="fluid container">
-
-              <div class="row">
-                <div class="col-sm-12">
+                              <!-- jQuery -->
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
 
 
-                 <form>
+</html>
 
-                  <h1>Join our mailing list</h1>
-
-                   <br />
-                   Name:<br>
-                   <input type="text" name="name"><br>
-                   E-mail:<br>
-                   <input type="text" name="e-mail">
-                   <input type="submit" name="Join Now"
-                </form>
-             </div>
-          </div>
-        </div>
-      </div>
-<!--------------------------------end form------------------------------>
-
-
-
-
-
-<!---..........................................table not using-................
+<!--table not using right now
       </div>
             <table>
               <caption>
@@ -198,47 +179,4 @@
               </tr>
             </tbody>
             </table>
-------------------------------------------------------------------------->
-
-<footer>
-
-</footer>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
-</body>
-
-
-</html>
-<!---------------------------------------------------------------
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Ribbit - A Treehouse Project</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
-  </head>
-  <body>
-
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <button type="button" class="navbar-toggle collapse" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand text-muted" href="#">Ribbit</a>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About Ribbit</a></li>
-            <li><a href="#">Treehouse</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
------------------------------------------------------------------------>
+table not using right now -->

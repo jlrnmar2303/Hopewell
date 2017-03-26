@@ -6,9 +6,9 @@ THIS IS A CUSTOM CSS STYLESHEET
          GENERAL
 *******************************/
 body {
-  background-color: lightblue;
-
-
+  background-color: #faf0e6;
+  color: black;
+  text-align: center;
 }
 
 /*******************************
@@ -21,20 +21,15 @@ body {
 
 .list {
   list-style: none;
-
 }
-
-
-/******************************
-       JUMBOTRON STYLE
-******************************/
+/**********************
+   JUMBOTRON STYLE
+**********************/
 .jumbotron {
   padding-top: 0%;
   padding-bottom: 0%;
 
 }
-
-
 
 .jumbotron-hope {
   position: relative;
@@ -43,31 +38,62 @@ body {
   background-size: 100% 100%;
 }
 
-
-
-/****************************
-          form
-****************************/
-
-.form  {
-min-width: 100%;
+/********************
+  WELCOME PIC
+********************/
+.welcome {
+  width: 100%;
+  margin: auto;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+/********************
+        FORM
+*********************/
+.join-form {
+  padding-top: 10%;
+  padding-right: 15%;
+  text-align: left;
 
 }
 
 
+/********************
+      FOOTER
+*********************/
 
-
-/**********
-h2 {
-   position: absolute;
-   top: 0px;
-   left: 0;
-   width: 100%;
-   text-align: left;
-   color: ;
+footer {
+  text-align: center;
 }
 
-h2 small {
-  color: white;
+/*******************
+    @MEDIA
+********************/
+
+@media (max-width: 768px) {
+  .welcome {
+      max-width: 75%;
+  }
 }
-**********/
+
+
+@media (max-width: 990px) {
+  .join-form {
+    padding: 0 0;
+
+  }
+}
+
+
+/*****************
+  HIDDEN DIV
+*****************/
+#thankyou {
+  display: none;
+}
+
+.ty-p {
+   color: lightblue;
+  font-size: 3em;
+padding-top: 20%;
+}
