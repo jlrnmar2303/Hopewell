@@ -6,4 +6,4 @@ recruiting new members, and providing updates for existing members. I added some
 
 HOW TO LAUNCH>>>
 
-Run index.html
+Run hope_index.html
